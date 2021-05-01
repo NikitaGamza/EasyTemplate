@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'Jost-BoldItalic';
+  src: url(dc970c98109639b2ae13c337f1dbd525.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jost-Bold';
+  src: url(ac6981857adf1ea5251e1e64977d6653.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jost-Medium';
+  src: url(4f6adcce2a79bd449919af57c020ad84.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Jost-Regular';
+  src: url(ba7997a1296d58137156fd21508a6dd1.ttf) format("truetype"); }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.welcome {
+  background-color: #03a9f4;
+  height: 1080px; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto; }
+
+.header {
+  margin: auto;
+  margin-bottom: 300px;
+  padding: 22px 0 0 0; }
+  .header__logo {
+    display: inline-block;
+    margin: 0 0 0 8px; }
+    .header__logo h2 {
+      font-family: 'Jost-BoldItalic', sans-serif;
+      font-size: 27px;
+      color: white; }
+  .header__links {
+    display: inline-block;
+    margin: 0 4% 0 44.6%; }
+  .header__link {
+    font-family: 'Jost-Medium', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    margin: 0 16px 0 0; }
+  .header__phone {
+    display: inline-block;
+    margin: 0 0 0 auto; }
+    .header__phone h4 {
+      font-family: 'Jost-Regular', sans-serif;
+      font-weight: 300;
+      font-size: 18px;
+      color: white; }
+
+.introduction {
+  margin: auto;
+  padding: 0 0 0 10px; }
+  .introduction__info {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 0 6.3% 0 0; }
+  .introduction__title {
+    font-family: 'Jost-Bold', sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    color: white;
+    margin: 45px 0 30px 0; }
+  .introduction__text {
+    font-family: 'Jost-Regular', sans-serif;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 19px 20px; }
+  .introduction__button {
+    font-family: 'Jost-Medium', sans-serif;
+    border: none;
+    background-color: white;
+    margin: 0 0 0 37px;
+    width: 30%;
+    height: 46px;
+    border-radius: 20px;
+    font-size: 16px; }
+  .introduction__picture {
+    display: inline-block;
+    width: 38%; }
+    .introduction__picture img {
+      left: 0%;
+      width: 100%; }
+
+.wrapper {
+  display: flex;
+  margin-bottom: 70px; }
+
+.advantages {
+  height: 805px;
+  padding-top: 75px; }
+  .advantages__picture {
+    margin-right: 105px;
+    width: 441px;
+    height: 288px; }
+    .advantages__picture img {
+      max-width: 100%; }
+  .advantages__info {
+    vertical-align: top;
+    max-width: 534px; }
+  .advantages__title {
+    text-align: left;
+    font-family: 'Jost-Bold', sans-serif;
+    font-size: 27px;
+    margin: 0 0 27px 0; }
+  .advantages__text {
+    font-family: 'Jost-Regular', sans-serif;
+    text-align: left;
+    font-size: 18px; }
+  .advantages__list {
+    width: 100%;
+    border-spacing: 0; }
+    .advantages__list td {
+      padding: 10px 0 10px 0; }
+    .advantages__list th {
+      padding: 10px 0 10px 0; }
+    .advantages__list tr:first-child td {
+      font-family: "Jost-Bold", sans-serif; }
+    .advantages__list tr:nth-child(odd) {
+      background-color: #f5f5f5;
+      border-left: 1px solid #f5f5f5;
+      border-right: 1px solid #f5f5f5; }
+    .advantages__list th:first-child {
+      font-family: "Jost-Bold", sans-serif;
+      width: 50px; }
+    .advantages__list td {
+      font-family: "Jost-Regular", sans-serif; }
+      .advantages__list td a {
+        color: blue;
+        text-decoration: underline; }
+  .advantages__congue {
+    width: 415px; }
+
+.about {
+  padding-top: 75px;
+  height: 275px;
+  background-color: #f5f5f5;
+  text-align: center;
+  align-items: center; }
+  .about__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .about__title {
+    font-family: "Jost-Bold", sans-serif;
+    font-size: 27px;
+    margin-bottom: 40px; }
+  .about__text {
+    max-width: 800px;
+    font-family: "Jost-Regular", sans-serif;
+    font-size: 18px; }
+
+.contact {
+  padding-top: 425px;
+  height: 655px;
+  background-image: url(0854b720ff622967563009394458c553.png); }
+  .contact__info {
+    padding-left: 35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 500px;
+    height: 240px;
+    background-color: white; }
+  .contact__title {
+    font-family: "Jost-Bold", sans-serif;
+    font-size: 27px;
+    margin-bottom: 40px; }
+  .contact__address {
+    font-family: "Jost-Regular", sans-serif;
+    font-family: 18px;
+    margin-bottom: 30px; }
+  .contact__phone {
+    font-family: "Jost-Regular", sans-serif;
+    font-family: 18px;
+    margin-bottom: 30px; }
+  .contact__email {
+    font-family: "Jost-Regular", sans-serif;
+    font-family: 18px; }
+
